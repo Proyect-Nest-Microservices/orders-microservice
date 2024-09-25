@@ -111,6 +111,7 @@ export class OrdersService extends PrismaClient implements OnModuleInit {
         lastPage: Math.ceil(totalPages / perPage)
       }
     }
+    
   }
 
   async findOne(id: string) {
