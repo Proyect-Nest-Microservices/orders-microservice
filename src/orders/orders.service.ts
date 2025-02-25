@@ -86,7 +86,6 @@ export class OrdersService extends PrismaClient implements OnModuleInit {
       })
     }
 
-
   }
 
   async findAll(orderPaginationDto: OrderPaginationDto) {
